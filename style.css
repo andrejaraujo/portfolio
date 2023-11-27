@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* body > img {
+  margin: 20px 15px;
+} */
+
+.container_todosFilmes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container_filme{
+   padding: 2%;
+   display: block;
+   max-width: 30%;
+}
+.container_todasSeries{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container_series{
+  padding: 2%;
+  display: block;
+  max-width: 30%
+}
+.container_todosLivros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+.container_livros{
+  padding: 2%;
+  display: block;
+  max-width: 30%
+}
+img {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+p{
+  color: #ffff;
+   transform: scale(1.2);
+}
+
+h1{
+  color:#ffff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
